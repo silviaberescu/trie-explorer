@@ -42,7 +42,7 @@ The function initCTree initializes nodes for the compacted tree and manages memo
 To compile and run the program, use the following commands in your terminal:
 
 make
-./tree_operations -cX input_file.txt output_file.txt
+./trie -cX trie.in trie.out
 
 The input file should contain a list of words (one per line) for operations -c1, -c2, and -c3.
 For operation -c2, an integer K should be specified after the words.
